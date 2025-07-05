@@ -1,0 +1,140 @@
+/* Custom RTL and alignment fixes for Arabic page */
+body,
+.gorman-main,
+.gorman-aside,
+.gorman-footer,
+.main-footer,
+.elementor-section,
+.elementor-widget-container,
+.container,
+.row,
+.col-md-*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+label,
+input,
+textarea,
+.form-group,
+.about-info,
+.work-texts,
+.contact-list,
+.btn-2,
+.heading-title,
+.heading-subtitle {
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+.gorman-main,
+.container,
+.row {
+    direction: rtl !important;
+}
+
+.gorman-main-menu ul {
+    text-align: center !important;
+}
+
+.gorman-main-menu ul li {
+    text-align: center !important;
+}
+
+.gorman-main-menu ul li a {
+    display: inline-block !important;
+}
+
+.elementor-section {
+    direction: rtl !important;
+}
+
+.about-info .row>div {
+    text-align: right !important;
+}
+
+.form-group input,
+.form-group textarea {
+    text-align: right !important;
+}
+
+.social-icon {
+    text-align: right !important;
+}
+
+/* Sidebar RTL Fix */
+.gorman-aside {
+    left: auto !important;
+    right: 0 !important;
+    border-left: none !important;
+    border-right: 1px solid #eee !important;
+}
+
+.gorman-main {
+    float: left !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .gorman-aside {
+        left: auto !important;
+        right: 0 !important;
+    }
+}
+
+body.offcanvas .gorman-aside {
+    left: auto !important;
+    right: 0 !important;
+}
+
+body.offcanvas .gorman-main,
+body.offcanvas .gorman-nav-toggle {
+    right: 270px !important;
+    left: auto !important;
+    -moz-transform: translateX(-270px) !important;
+    -webkit-transform: translateX(-270px) !important;
+    -ms-transform: translateX(-270px) !important;
+    -o-transform: translateX(-270px) !important;
+    transform: translateX(-270px) !important;
+}
+
+/* Force hero name and subtitle to the right */
+.gorman-hero .slider-text-inner h2,
+.gorman-hero .slider-text-inner h6 {
+    text-align: right !important;
+}
+
+/* Force About Me section text to the right */
+#about,
+#about * {
+    text-align: right !important;
+}
+
+/* Force Services section text to the right */
+#services,
+#services * {
+    text-align: right !important;
+}
+
+/* Force Work Showcase section text to the right */
+#work,
+#work * {
+    text-align: right !important;
+}
+
+/* Force Current News (Blog) section text to the right */
+#blog,
+#blog * {
+    text-align: right !important;
+}
+
+/* Force Contact Me section text to the right */
+#contact,
+#contact * {
+    text-align: right !important;
+}

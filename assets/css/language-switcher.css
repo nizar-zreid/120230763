@@ -1,0 +1,23 @@
+.language-switcher-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 0 auto;
+    font-size: 22px;
+    color: #333;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: color 0.2s;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.language-switcher-icon:hover {
+    color: #c07f50;
+    background: none;
+    border: none;
+    outline: none;
+}

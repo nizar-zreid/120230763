@@ -1,0 +1,47 @@
+.switch-mode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.switch-mode-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.switch-mode-icon.active {
+    color: #FFD600;
+}
+
+body.dark-mode .gorman-hero .flexslider .slider-text>.slider-text-inner .desc {
+    background: rgba(30, 30, 30, 0.92) !important;
+    color: #f1f1f1 !important;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .gorman-hero .flexslider .slider-text>.slider-text-inner .desc h2,
+body.dark-mode .gorman-hero .flexslider .slider-text>.slider-text-inner .desc h6,
+body.dark-mode .gorman-hero .flexslider .slider-text>.slider-text-inner .desc p,
+body.dark-mode .gorman-hero .flexslider .slider-text>.slider-text-inner .desc a {
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode .gorman-hero .flexslider .slider-text>.slider-text-inner .desc .cardvisit-list .icon i {
+    color: #FFD600 !important;
+}
+
+body.dark-mode #contact,
+body.dark-mode #contact h2,
+body.dark-mode #contact h5,
+body.dark-mode #contact p,
+body.dark-mode #contact li,
+body.dark-mode #contact a,
+body.dark-mode #contact .contact-list li .icon span,
+body.dark-mode #contact .contact-list li .text p,
+body.dark-mode #contact .contact-list li .text p a {
+    color: #fff !important;
+}
